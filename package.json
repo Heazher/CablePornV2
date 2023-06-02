@@ -1,0 +1,28 @@
+{
+  "name": "cableporn-twt",
+  "version": "2.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Heazher/CablePornV2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heazher/CablePornV2/issues"
+  },
+  "homepage": "https://github.com/Heazher/CablePornV2#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1389.0",
+    "axios": "^1.4.0",
+    "mongoose": "^7.2.2",
+    "node-schedule": "^2.1.1",
+    "request": "^2.88.2",
+    "twit": "^2.2.11"
+  }
+}
